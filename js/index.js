@@ -37,7 +37,7 @@ console.log(driverName);
 
 let navName = [];
 
-for (let i = 0; i >= navigatorArr.length; i++) {
+for (let i = 0; i <= navigatorArr.length; i++) {
   navName.push(navigatorArr[i]);
 }
 console.log(navName.reverse());
